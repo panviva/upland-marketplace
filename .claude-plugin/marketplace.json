@@ -19,7 +19,7 @@
       "name": "skillforge",
       "source": {
         "source": "github",
-        "repo": "upld-internal/skillforge"
+        "repo": "RyotaKun/skillforge"
       },
       "description": "Enterprise AI skill library — install, upload, and manage team skills from Claude Code."
     }
