@@ -1,0 +1,27 @@
+{
+  "name": "upld-internal",
+  "owner": {
+    "name": "upld-internal"
+  },
+  "metadata": {
+    "description": "Claude Code plugins for Upland Software teams."
+  },
+  "plugins": [
+    {
+      "name": "burnrate-claude",
+      "source": {
+        "source": "github",
+        "repo": "upld-internal/burnrate-claude"
+      },
+      "description": "Real-time AWS Bedrock cost display — session cost and month-to-date in the Claude Code statusline."
+    },
+    {
+      "name": "skillforge",
+      "source": {
+        "source": "github",
+        "repo": "upld-internal/skillforge"
+      },
+      "description": "Enterprise AI skill library — install, upload, and manage team skills from Claude Code."
+    }
+  ]
+}
