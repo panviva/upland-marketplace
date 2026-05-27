@@ -5,7 +5,7 @@ Marketplace manifest for Upland Software Claude Code plugins.
 ## Setup (one-time)
 
 ```
-/plugin marketplace add upld-internal/claude-plugins
+/plugin marketplace add panviva/upland-marketplace
 ```
 
 ## Install plugins
