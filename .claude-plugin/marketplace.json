@@ -22,6 +22,51 @@
         "repo": "panviva/skillforge-plugin"
       },
       "description": "Enterprise AI skill library — install, upload, and manage team skills from Claude Code."
+    },
+    {
+      "name": "memory-management-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "panviva/upld-shared-library",
+        "path": "bundles/memory-management"
+      },
+      "description": "Memory & knowledge-base skills — set up an LLM-maintained Obsidian knowledge base (karpathy-obsidian-memory-setup): raw/ inbox, LLM-compiled wiki/, filed-back answers. Refresh with /plugin marketplace update."
+    },
+    {
+      "name": "pv-legacy-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "panviva/upld-shared-library",
+        "path": "bundles/pv-legacy"
+      },
+      "description": "Panviva Core (legacy SupportPoint) skills — always-on production-incident investigation that grounds every claim in New Relic telemetry across the C# web tier, the SPIL modules, and the C++ mentord appserver, and validates or corrects an RCA someone else wrote (panviva-prod-investigation, by Tristan, ships with its nrql.sh helper). Refresh with /plugin marketplace update."
+    },
+    {
+      "name": "sangt-daily-mandatory-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "panviva/upld-shared-library",
+        "path": "bundles/sangt-daily-mandatory-skills"
+      },
+      "description": "SangT's daily-driver skills — the set worth installing on every machine: a morning briefing (start-my-day), multi-model structured planning for goal-driven execution (plan-for-goal with Gemini 3.8, GPT-5.6, Kimi 3), plus the cross-session workflow (project-setup, session-start, session-handoff, session-calibrate). Refresh with /plugin marketplace update."
+    },
+    {
+      "name": "upld-git-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "panviva/upld-shared-library",
+        "path": "bundles/git-skills"
+      },
+      "description": "Upland git & release workflow skills — commit messages, PR self-review checklists, and changelog entries. Install this bundle; new git skills arrive via /plugin marketplace update (no reinstall)."
+    },
+    {
+      "name": "upld-modernisation-skills",
+      "source": {
+        "source": "git-subdir",
+        "url": "panviva/upld-shared-library",
+        "path": "bundles/modernisation"
+      },
+      "description": "Panviva modernisation skills — implementation-readiness audits of a PANV epic or story with every claim source-cited (pv-modernisation-readiness-audit), plus always-on C# /// XML documentation enforcement with its checker script and pre-commit hook (panviva-xml-docs, and the Copilot dialect). Refresh with /plugin marketplace update."
     }
   ]
 }
