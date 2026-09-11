@@ -48,7 +48,7 @@
         "url": "panviva/upld-shared-library",
         "path": "bundles/sangt-daily-mandatory-skills"
       },
-      "description": "SangT's daily-driver skills — the set worth installing on every machine: a morning briefing (start-my-day), multi-model structured planning for goal-driven execution (plan-for-goal with Gemini 3.8, GPT-5.6, Kimi 3), plus the cross-session workflow (project-setup, session-start, session-handoff, session-calibrate). Refresh with /plugin marketplace update."
+      "description": "SangT's daily-driver skills — the set worth installing on every machine: a morning briefing (start-my-day), compact multi-model structured planning for goal-driven execution (plan-for-goal with Gemini 3.8, GPT-5.6, GPT-6 Astra, Kimi 3), plus the cross-session workflow (project-setup, session-start, session-handoff, session-calibrate). Refresh with /plugin marketplace update."
     },
     {
       "name": "upld-git-skills",
